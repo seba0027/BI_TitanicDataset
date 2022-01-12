@@ -1,0 +1,428 @@
+@relation Titanic_test_processed-weka.filters.unsupervised.attribute.NumericToNominal-R1-weka.filters.unsupervised.attribute.NumericToNominal-R2							
+							
+@attribute Survived			{0,1}			
+@attribute Pclass 			{1,2,3}		
+@attribute Sex 				{Male,Female}		
+@attribute Embarked 		{C,S,Q}			
+@attribute AgeGroup 		{'Young Adult','Senior Adult',NK,Teen,Child,Elderly}
+@attribute Relatives 		{None,Low,Average,High}		
+							
+@data							
+?,3,Male,Q,'Young Adult',None
+?,3,Female,S,'Young Adult',Low
+?,2,Male,Q,'Senior Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Female,S,'Young Adult',Low
+?,3,Male,S,Teen,None
+?,3,Female,Q,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,3,Female,C,'Young Adult',None
+?,3,Male,S,'Young Adult',Low
+?,3,Male,S,NK,None
+?,1,Male,S,'Young Adult',None
+?,1,Female,S,'Young Adult',Low
+?,2,Male,S,'Senior Adult',Low
+?,1,Female,S,'Young Adult',Low
+?,2,Female,C,'Young Adult',Low
+?,2,Male,Q,'Young Adult',None
+?,3,Male,C,'Young Adult',None
+?,3,Female,S,'Young Adult',Low
+?,3,Female,C,'Young Adult',None
+?,1,Male,C,'Senior Adult',Low
+?,3,Male,S,Child,Low
+?,1,Female,S,NK,None
+?,1,Male,C,'Young Adult',Low
+?,1,Female,C,'Young Adult',Average
+?,3,Male,S,'Senior Adult',Low
+?,1,Female,C,'Young Adult',Low
+?,3,Male,C,'Young Adult',None
+?,1,Male,S,'Young Adult',None
+?,3,Male,C,NK,Low
+?,2,Male,S,'Senior Adult',Low
+?,2,Male,S,'Young Adult',Low
+?,3,Female,S,'Young Adult',Average
+?,3,Female,S,NK,Average
+?,1,Male,C,'Young Adult',Low
+?,3,Male,C,'Young Adult',None
+?,3,Female,S,NK,None
+?,3,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,3,Male,C,'Young Adult',Low
+?,1,Male,S,NK,None
+?,3,Male,S,'Young Adult',None
+?,2,Female,S,'Young Adult',None
+?,1,Female,S,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,1,Male,C,'Young Adult',None
+?,3,Male,Q,NK,None
+?,1,Female,C,'Senior Adult',None
+?,3,Female,S,'Young Adult',Low
+?,1,Male,S,'Young Adult',Low
+?,2,Male,C,'Young Adult',None
+?,2,Female,S,'Young Adult',Average
+?,1,Female,S,'Young Adult',Average
+?,2,Male,C,NK,None
+?,3,Male,Q,Child,Average
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,NK,Low
+?,1,Female,C,'Young Adult',None
+?,3,Male,S,Teen,None
+?,2,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Female,Q,'Young Adult',None
+?,1,Male,C,Teen,Average
+?,2,Female,S,NK,None
+?,3,Female,Q,'Young Adult',None
+?,1,Male,S,'Young Adult',None
+?,1,Male,C,'Young Adult',None
+?,1,Female,S,'Senior Adult',Average
+?,3,Female,Q,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Female,S,'Young Adult',None
+?,1,Male,C,'Young Adult',None
+?,1,Female,C,'Young Adult',None
+?,1,Male,C,'Young Adult',None
+?,3,Male,S,NK,None
+?,1,Female,S,'Senior Adult',Low
+?,2,Male,S,'Young Adult',None
+?,3,Female,Q,'Young Adult',None
+?,3,Male,C,Child,Low
+?,1,Male,S,Elderly,Low
+?,1,Male,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,2,Male,Q,NK,None
+?,3,Male,C,NK,Low
+?,3,Female,Q,'Young Adult',None
+?,3,Female,S,'Young Adult',None
+?,3,Female,Q,NK,None
+?,2,Male,S,Child,Low
+?,3,Female,S,'Young Adult',Low
+?,3,Male,S,NK,None
+?,1,Female,S,'Young Adult',Average
+?,3,Male,S,NK,None
+?,1,Male,C,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,1,Female,S,Elderly,Low
+?,3,Male,S,'Young Adult',None
+?,3,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,1,Female,C,'Young Adult',Low
+?,2,Male,S,'Young Adult',Low
+?,3,Male,Q,NK,None
+?,3,Male,S,'Young Adult',None
+?,3,Female,C,Teen,Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,Q,'Young Adult',None
+?,3,Male,Q,NK,None
+?,3,Male,S,NK,None
+?,2,Male,S,'Young Adult',None
+?,2,Male,C,'Young Adult',None
+?,3,Female,Q,NK,None
+?,1,Female,C,'Young Adult',None
+?,3,Female,Q,'Young Adult',None
+?,1,Female,S,'Senior Adult',Low
+?,3,Male,C,'Young Adult',Low
+?,3,Male,C,NK,None
+?,3,Female,S,Child,Low
+?,1,Male,C,'Young Adult',None
+?,2,Female,S,'Young Adult',Low
+?,2,Female,S,Teen,None
+?,3,Male,Q,NK,Low
+?,1,Female,C,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,Q,NK,None
+?,3,Female,S,Teen,Low
+?,3,Male,S,'Young Adult',None
+?,3,Female,Q,NK,Low
+?,2,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,1,Male,C,'Senior Adult',None
+?,3,Female,S,NK,Average
+?,3,Male,C,NK,Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,C,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,3,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',High
+?,3,Female,S,Child,High
+?,1,Female,S,'Young Adult',None
+?,1,Male,C,'Senior Adult',Average
+?,2,Male,S,'Young Adult',None
+?,1,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',Average
+?,1,Male,S,NK,None
+?,3,Male,S,'Young Adult',None
+?,1,Male,S,NK,None
+?,2,Male,S,'Young Adult',Low
+?,1,Female,C,'Young Adult',Low
+?,3,Male,C,NK,None
+?,3,Male,S,'Senior Adult',None
+?,3,Female,S,'Young Adult',Low
+?,3,Male,S,Teen,High
+?,3,Male,S,'Young Adult',None
+?,1,Female,S,'Young Adult',None
+?,3,Female,S,'Young Adult',None
+?,1,Male,S,'Young Adult',None
+?,3,Female,S,'Young Adult',Low
+?,3,Female,Q,NK,None
+?,3,Male,C,Child,Low
+?,2,Female,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,2,Male,S,'Young Adult',None
+?,3,Female,S,'Young Adult',Low
+?,1,Male,C,'Young Adult',None
+?,3,Male,S,'Young Adult',Average
+?,1,Female,C,NK,None
+?,3,Female,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,3,Male,C,'Young Adult',None
+?,3,Male,S,'Young Adult',Low
+?,3,Male,C,NK,None
+?,3,Male,S,'Young Adult',High
+?,2,Female,S,Teen,Low
+?,2,Female,S,'Young Adult',None
+?,1,Male,C,'Senior Adult',Low
+?,2,Female,S,'Young Adult',Average
+?,1,Female,C,'Senior Adult',Low
+?,2,Male,S,'Young Adult',None
+?,1,Male,C,'Young Adult',Low
+?,1,Female,S,'Young Adult',Low
+?,3,Male,Q,NK,None
+?,1,Female,C,'Young Adult',Low
+?,2,Male,S,'Young Adult',None
+?,2,Female,S,'Young Adult',Low
+?,3,Male,S,Teen,Low
+?,3,Female,S,NK,High
+?,2,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,1,Male,S,NK,None
+?,3,Male,S,Child,Low
+?,2,Male,Q,'Senior Adult',None
+?,2,Male,S,Child,Low
+?,3,Male,S,'Young Adult',None
+?,1,Male,C,Child,Low
+?,3,Female,S,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,3,Female,S,NK,None
+?,3,Female,Q,NK,None
+?,3,Male,S,Child,Low
+?,1,Male,C,'Young Adult',Low
+?,2,Female,S,Child,Low
+?,2,Male,S,'Young Adult',None
+?,1,Male,C,NK,None
+?,3,Female,Q,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,1,Female,C,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,2,Male,S,Teen,None
+?,2,Female,S,'Senior Adult',Low
+?,3,Female,S,'Young Adult',High
+?,1,Male,S,'Young Adult',None
+?,3,Female,Q,NK,None
+?,1,Male,S,'Senior Adult',Low
+?,1,Female,C,'Senior Adult',Low
+?,3,Male,S,NK,None
+?,2,Female,C,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,2,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,1,Female,C,'Senior Adult',None
+?,3,Female,C,NK,Low
+?,3,Male,S,'Young Adult',None
+?,3,Female,Q,NK,None
+?,3,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,2,Male,S,Teen,None
+?,1,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',Low
+?,3,Male,Q,NK,None
+?,1,Male,C,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,1,Male,C,'Senior Adult',Low
+?,3,Male,C,'Young Adult',None
+?,2,Female,S,'Young Adult',Low
+?,1,Female,C,'Young Adult',Low
+?,1,Female,C,'Senior Adult',None
+?,2,Female,S,'Young Adult',Low
+?,1,Male,C,'Young Adult',Low
+?,3,Male,S,NK,None
+?,3,Male,S,NK,Average
+?,1,Male,S,'Young Adult',Low
+?,2,Female,S,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,2,Female,S,'Young Adult',Low
+?,3,Female,C,NK,Low
+?,2,Female,S,Child,Average
+?,3,Male,S,'Young Adult',None
+?,1,Male,C,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,3,Male,Q,NK,None
+?,3,Male,S,'Young Adult',None
+?,2,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,2,Female,S,'Young Adult',Low
+?,3,Female,S,Child,Low
+?,2,Male,C,'Young Adult',None
+?,3,Male,S,NK,None
+?,1,Male,S,NK,None
+?,3,Male,S,NK,None
+?,3,Female,S,NK,None
+?,3,Male,S,Teen,None
+?,1,Male,C,'Young Adult',None
+?,3,Male,Q,NK,None
+?,1,Female,C,'Young Adult',Low
+?,3,Female,Q,NK,Low
+?,3,Male,C,NK,None
+?,2,Female,S,'Young Adult',Low
+?,2,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,2,Male,S,'Young Adult',Low
+?,2,Male,S,'Young Adult',None
+?,3,Female,S,'Young Adult',None
+?,3,Male,S,Child,Low
+?,3,Female,Q,NK,None
+?,3,Female,C,Child,Low
+?,3,Female,S,Child,Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,1,Male,S,'Young Adult',Low
+?,3,Male,C,NK,None
+?,3,Male,S,NK,None
+?,1,Male,S,NK,None
+?,3,Female,Q,'Young Adult',None
+?,3,Male,C,NK,None
+?,1,Male,S,'Senior Adult',Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,2,Female,C,Child,Average
+?,3,Male,C,NK,Low
+?,1,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,2,Male,C,NK,None
+?,2,Male,S,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,3,Female,Q,NK,None
+?,1,Female,S,'Senior Adult',Low
+?,1,Male,S,'Young Adult',Average
+?,3,Male,S,Child,Low
+?,1,Male,S,'Senior Adult',Low
+?,3,Female,S,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,C,'Young Adult',None
+?,3,Male,S,NK,None
+?,3,Female,Q,'Young Adult',None
+?,1,Female,C,'Senior Adult',None
+?,3,Female,Q,Teen,None
+?,1,Male,C,'Senior Adult',Low
+?,2,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,C,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,1,Male,S,'Young Adult',None
+?,1,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,2,Female,S,Teen,Average
+?,1,Male,C,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,2,Male,S,'Young Adult',None
+?,2,Female,S,'Young Adult',Low
+?,1,Male,C,'Young Adult',None
+?,3,Male,C,NK,None
+?,3,Female,C,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,1,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,3,Male,C,'Young Adult',Low
+?,2,Male,S,'Young Adult',None
+?,3,Male,C,NK,None
+?,2,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,NK,High
+?,1,Female,C,'Senior Adult',Low
+?,3,Male,S,NK,Low
+?,3,Female,S,Teen,None
+?,2,Male,S,'Young Adult',None
+?,3,Female,C,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,2,Female,S,'Young Adult',None
+?,1,Female,C,'Young Adult',Low
+?,2,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',Average
+?,3,Female,S,Child,Average
+?,1,Male,S,'Senior Adult',None
+?,1,Female,S,'Senior Adult',Low
+?,3,Male,S,NK,None
+?,3,Male,Q,NK,None
+?,3,Female,S,'Young Adult',Low
+?,3,Male,S,Teen,High
+?,2,Female,C,'Young Adult',Low
+?,2,Female,S,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,1,Female,C,'Young Adult',Low
+?,3,Female,S,NK,High
+?,3,Male,C,NK,Low
+?,3,Female,S,'Young Adult',None
+?,1,Female,C,'Young Adult',Low
+?,2,Male,C,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,1,Female,C,'Young Adult',None
+?,1,Male,S,'Young Adult',None
+?,2,Male,S,'Young Adult',None
+?,1,Female,S,'Senior Adult',Low
+?,1,Female,C,'Young Adult',None
+?,3,Female,S,'Young Adult',Low
+?,2,Male,S,'Young Adult',None
+?,1,Male,S,'Senior Adult',None
+?,3,Male,S,Child,High
+?,3,Male,Q,NK,None
+?,3,Male,Q,'Young Adult',None
+?,3,Female,S,NK,None
+?,3,Female,S,'Young Adult',Low
+?,2,Male,S,NK,None
+?,2,Female,S,'Young Adult',Average
+?,3,Male,S,'Young Adult',None
+?,2,Male,S,'Senior Adult',None
+?,3,Male,Q,'Young Adult',None
+?,3,Male,S,Child,Average
+?,1,Male,S,'Young Adult',None
+?,1,Female,S,'Senior Adult',Low
+?,3,Male,S,Teen,Low
+?,2,Male,S,'Young Adult',None
+?,3,Male,S,'Young Adult',Average
+?,1,Female,S,'Young Adult',Low
+?,3,Male,Q,'Young Adult',None
+?,1,Female,C,'Young Adult',Low
+?,3,Male,S,'Young Adult',None
+?,3,Male,Q,'Young Adult',None
+?,1,Female,S,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,1,Female,C,'Young Adult',Low
+?,1,Male,S,Teen,None
+?,1,Male,C,'Young Adult',Low
+?,2,Male,C,'Young Adult',None
+?,2,Male,S,'Young Adult',Low
+?,1,Male,C,'Senior Adult',Low
+?,3,Female,Q,NK,None
+?,3,Female,S,Child,Low
+?,3,Female,Q,NK,None
+?,1,Female,Q,'Young Adult',Low
+?,3,Female,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,1,Female,C,'Young Adult',None
+?,3,Male,S,'Young Adult',None
+?,3,Male,S,NK,None
+?,3,Male,C,NK,Low

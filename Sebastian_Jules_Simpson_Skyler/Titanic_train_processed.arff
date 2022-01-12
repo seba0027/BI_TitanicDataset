@@ -1,0 +1,899 @@
+@relation 'Titanic_train_processed-weka.filters.unsupervised.attribute.NumericToNominal-R1,2-weka.filters.unsupervised.attribute.NominalToBinary-R1,3-weka.filters.unsupervised.attribute.NumericToNominal-R1,3'
+
+@attribute Survived			{0,1}
+@attribute Pclass 			{1,2,3}
+@attribute Sex 				{Male,Female}
+@attribute Embarked 		{C,S,Q}
+@attribute AgeGroup 		{'Young Adult','Senior Adult',NK,Teen,Child,Elderly}
+@attribute Relatives 		{None,Low,Average,High}
+
+@data
+1,1,Female,C,'Young Adult',None
+1,1,Male,C,'Young Adult',Low
+1,1,Male,C,'Young Adult',None
+0,1,Male,S,'Young Adult',Average
+1,1,Female,S,'Young Adult',Average
+1,1,Female,S,'Young Adult',Average
+0,1,Male,S,'Senior Adult',Average
+1,1,Female,C,'Young Adult',Average
+1,1,Female,C,'Young Adult',Average
+0,1,Male,C,'Young Adult',Low
+1,1,Female,C,'Senior Adult',Low
+1,1,Female,C,'Young Adult',None
+0,1,Male,C,NK,None
+1,1,Female,C,'Young Adult',Low
+1,1,Female,C,'Young Adult',None
+0,1,Male,S,NK,None
+0,1,Male,C,'Young Adult',Low
+1,1,Female,S,Teen,Low
+1,1,Female,S,'Young Adult',None
+1,1,Female,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+1,1,Female,S,'Senior Adult',Low
+0,1,Male,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',None
+0,1,Female,S,Child,Average
+1,1,Male,S,Child,Average
+0,1,Female,S,'Young Adult',Average
+1,1,Female,S,'Young Adult',None
+1,1,Female,C,NK,Low
+1,1,Female,C,'Senior Adult',None
+1,1,Female,S,'Young Adult',None
+1,1,Female,C,'Young Adult',None
+0,1,Male,C,'Young Adult',None
+1,1,Female,C,'Young Adult',Low
+1,1,Female,C,'Young Adult',None
+1,1,Female,S,NK,Low
+1,1,Male,S,'Senior Adult',Low
+1,1,Male,S,'Young Adult',Average
+1,1,Female,S,Teen,Average
+1,1,Female,S,'Young Adult',Average
+1,1,Male,S,Child,Average
+1,1,Female,C,'Young Adult',Low
+1,1,Female,C,'Young Adult',Low
+0,1,Male,C,'Senior Adult',Low
+1,1,Female,C,NK,None
+1,1,Male,C,Teen,Low
+1,1,Female,C,'Young Adult',Low
+0,1,Male,C,'Young Adult',Low
+1,1,Female,C,Teen,Low
+0,1,Male,C,'Young Adult',Low
+1,1,Female,C,'Young Adult',None
+0,1,Male,C,'Senior Adult',Low
+1,1,Female,S,'Young Adult',None
+1,1,Female,S,'Senior Adult',Low
+1,1,Female,C,'Young Adult',Low
+1,1,Male,C,'Young Adult',Low
+1,1,Male,S,'Young Adult',Low
+0,1,Male,Q,'Young Adult',Low
+1,1,Female,Q,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+1,1,Male,C,'Young Adult',Low
+1,1,Female,C,NK,Low
+1,1,Female,S,'Young Adult',None
+1,1,Female,S,Teen,None
+1,1,Female,S,'Young Adult',None
+0,1,Male,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+1,1,Female,C,'Young Adult',None
+1,1,Female,C,'Young Adult',Low
+1,1,Female,C,'Senior Adult',Low
+0,1,Male,C,'Young Adult',Low
+1,1,Female,C,NK,Low
+1,1,Male,S,Child,Low
+0,1,Male,S,'Senior Adult',Low
+1,1,Female,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+0,1,Male,C,'Young Adult',None
+1,1,Female,C,NK,None
+1,1,Male,C,'Senior Adult',Low
+0,1,Male,C,'Young Adult',None
+1,1,Female,S,'Young Adult',None
+0,1,Male,S,'Young Adult',Low
+1,1,Female,C,'Senior Adult',Low
+1,1,Female,C,'Senior Adult',Low
+1,1,Female,S,'Senior Adult',Low
+1,1,Female,S,'Young Adult',None
+1,1,Female,S,'Senior Adult',Low
+0,1,Male,S,'Young Adult',Low
+0,1,Male,S,'Senior Adult',Low
+1,1,Female,C,'Young Adult',Low
+1,1,Male,C,'Young Adult',Low
+1,1,Male,C,'Young Adult',None
+1,1,Female,C,'Young Adult',None
+1,1,Female,C,'Senior Adult',Low
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',Low
+1,1,Female,C,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+0,1,Male,S,Elderly,Low
+0,3,Male,S,NK,High
+0,3,Female,S,NK,High
+0,3,Male,S,NK,High
+0,3,Male,S,NK,High
+0,3,Female,S,NK,High
+0,3,Male,S,NK,High
+0,3,Female,S,NK,High
+1,1,Female,C,'Young Adult',None
+1,1,Female,C,'Young Adult',None
+1,1,Female,S,'Young Adult',Low
+0,1,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Average
+1,2,Female,S,'Young Adult',Average
+1,1,Male,C,'Young Adult',Low
+0,1,Male,C,'Senior Adult',Low
+0,1,Male,C,'Senior Adult',Low
+0,1,Male,S,'Young Adult',Low
+1,1,Female,C,'Senior Adult',Low
+1,1,Female,C,Teen,Low
+1,1,Female,C,'Young Adult',Low
+1,1,Male,S,'Young Adult',Low
+1,1,Female,S,Teen,Low
+1,1,Female,C,'Young Adult',None
+1,1,Male,C,'Young Adult',Low
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+1,3,Male,S,NK,None
+1,3,Male,S,NK,None
+0,3,Male,S,NK,None
+1,3,Male,S,'Young Adult',None
+0,1,Male,S,'Senior Adult',Low
+1,1,Female,S,'Young Adult',Low
+1,1,Male,C,'Young Adult',Low
+1,1,Female,S,NK,Low
+1,1,Female,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+0,1,Male,S,'Young Adult',Low
+1,1,Male,S,'Young Adult',Low
+0,1,Male,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+1,1,Male,S,'Young Adult',Low
+1,1,Male,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',Low
+0,1,Male,S,'Young Adult',Low
+0,1,Male,S,'Young Adult',None
+1,1,Female,S,'Young Adult',Low
+0,1,Male,S,NK,None
+1,1,Female,S,NK,Low
+0,1,Male,S,'Young Adult',Low
+1,1,Male,S,'Young Adult',Low
+0,1,Male,S,'Senior Adult',None
+1,1,Female,S,NK,Low
+1,1,Female,S,'Senior Adult',Low
+0,1,Male,S,'Young Adult',None
+0,1,Male,S,NK,None
+0,1,Male,C,Elderly,None
+1,1,Female,C,'Young Adult',None
+1,1,Female,C,'Young Adult',Low
+0,1,Male,S,'Young Adult',None
+0,3,Male,S,Child,High
+0,3,Female,S,Teen,High
+0,3,Male,S,Child,High
+0,3,Male,S,Child,High
+0,3,Female,S,'Young Adult',High
+0,3,Male,S,Teen,High
+0,1,Male,S,NK,None
+1,2,Female,C,Child,Average
+1,2,Female,C,'Young Adult',Average
+0,2,Male,C,'Young Adult',Average
+0,1,Male,C,'Young Adult',None
+0,3,Male,S,Child,Average
+0,3,Male,S,Child,Average
+0,3,Male,S,Teen,Average
+0,3,Female,S,'Young Adult',Average
+0,3,Male,S,Teen,Average
+0,3,Male,S,Child,Average
+1,1,Female,C,'Young Adult',Low
+0,1,Male,C,NK,None
+1,1,Female,S,Teen,Low
+1,2,Male,S,Child,Average
+1,2,Female,S,Child,Average
+1,2,Female,S,'Young Adult',Low
+0,2,Male,S,'Senior Adult',Low
+0,1,Male,S,'Young Adult',None
+0,2,Male,C,'Young Adult',Low
+1,2,Male,C,Child,Low
+0,2,Male,S,'Young Adult',Low
+1,2,Male,S,Child,Low
+1,1,Male,S,'Young Adult',None
+1,1,Male,S,NK,None
+0,1,Male,S,'Young Adult',None
+1,1,Male,C,'Senior Adult',None
+0,1,Male,S,NK,None
+0,1,Male,C,Elderly,None
+0,3,Male,S,Teen,Average
+0,3,Female,S,Child,Average
+0,3,Female,S,'Young Adult',Average
+0,3,Female,S,'Young Adult',Average
+0,1,Male,S,'Young Adult',None
+0,1,Male,S,'Senior Adult',None
+1,2,Female,S,NK,None
+1,2,Female,S,Child,Low
+0,2,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+0,1,Male,S,'Senior Adult',None
+1,3,Female,S,'Young Adult',High
+0,3,Male,S,Child,High
+1,3,Female,S,Child,High
+1,3,Male,S,Child,High
+0,3,Male,S,'Young Adult',High
+0,3,Female,S,Child,High
+0,3,Female,S,Child,High
+0,3,Female,S,Child,High
+0,3,Female,S,'Young Adult',High
+0,3,Female,S,Child,High
+0,3,Male,S,Child,High
+1,1,Male,C,'Young Adult',None
+0,1,Male,S,NK,None
+1,1,Female,C,'Young Adult',None
+0,1,Male,C,'Senior Adult',None
+0,1,Male,C,NK,None
+1,1,Male,S,NK,None
+1,1,Male,S,'Senior Adult',None
+0,1,Male,S,'Senior Adult',None
+1,1,Male,S,'Young Adult',None
+1,1,Male,C,'Young Adult',None
+1,2,Female,C,Teen,Low
+0,2,Male,C,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+1,1,Male,S,Elderly,None
+1,1,Male,S,NK,None
+0,1,Male,S,'Young Adult',None
+1,1,Female,S,'Young Adult',None
+1,1,Male,C,'Young Adult',None
+0,1,Male,C,'Young Adult',Low
+0,1,Male,C,'Senior Adult',None
+1,1,Male,C,NK,None
+0,3,Male,Q,Child,Average
+0,3,Male,Q,Child,Average
+0,3,Male,Q,Child,Average
+0,3,Male,Q,Child,Average
+0,3,Female,Q,'Young Adult',Average
+1,2,Male,S,Child,Low
+1,2,Female,S,'Young Adult',Low
+0,1,Female,C,'Senior Adult',None
+0,1,Male,S,'Young Adult',None
+0,3,Male,S,Child,Average
+0,3,Female,S,'Young Adult',Average
+0,3,Male,S,'Young Adult',Average
+0,3,Female,S,Child,Average
+0,3,Female,S,Child,Average
+0,3,Male,S,Child,Average
+1,2,Female,S,Child,Average
+0,2,Male,S,'Young Adult',Average
+0,1,Male,C,'Young Adult',None
+1,2,Female,S,'Young Adult',Average
+0,1,Male,C,'Young Adult',None
+0,1,Male,C,NK,None
+1,1,Female,C,'Young Adult',None
+0,1,Male,C,NK,None
+0,2,Male,C,'Young Adult',Low
+0,2,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Average
+1,1,Female,S,'Senior Adult',None
+1,1,Male,S,'Young Adult',None
+0,1,Male,S,'Senior Adult',None
+1,1,Male,S,'Young Adult',None
+1,1,Male,S,'Young Adult',None
+0,1,Male,S,'Senior Adult',None
+1,1,Male,S,'Young Adult',None
+0,1,Male,S,'Senior Adult',None
+1,1,Male,S,NK,None
+0,1,Male,S,'Young Adult',None
+0,1,Male,S,'Senior Adult',None
+1,1,Male,C,'Young Adult',None
+0,1,Male,S,'Senior Adult',None
+0,1,Male,S,NK,None
+1,1,Male,S,'Senior Adult',None
+1,1,Male,S,'Young Adult',None
+1,1,Male,S,'Young Adult',None
+1,1,Male,S,'Young Adult',None
+1,1,Male,S,'Young Adult',None
+1,1,Female,S,'Young Adult',Low
+1,2,Female,S,Child,Low
+0,2,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,Child,Low
+0,2,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',Low
+1,2,Male,S,Child,Low
+0,2,Male,S,'Young Adult',Low
+0,2,Male,S,'Senior Adult',Low
+1,2,Female,S,'Senior Adult',Low
+0,1,Male,S,NK,None
+0,2,Female,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+1,2,Male,S,Child,Low
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',None
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,Child,Low
+1,2,Male,S,'Young Adult',Low
+0,1,Male,S,'Senior Adult',None
+1,2,Female,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Senior Adult',None
+0,2,Male,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',Low
+0,2,Male,S,Teen,None
+0,2,Female,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+1,1,Female,S,'Young Adult',None
+1,1,Female,S,'Young Adult',None
+0,1,Male,S,NK,None
+0,1,Male,S,'Young Adult',None
+0,3,Male,S,NK,Average
+0,3,Female,S,NK,Average
+0,3,Female,S,NK,Average
+0,3,Female,S,NK,Average
+1,3,Female,Q,NK,Low
+0,3,Female,S,Child,Low
+0,3,Male,Q,NK,None
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+0,3,Male,Q,NK,Low
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,2,Male,C,'Young Adult',Low
+1,2,Female,C,'Young Adult',Low
+0,3,Male,S,NK,Average
+0,3,Female,S,NK,Average
+1,3,Male,Q,NK,Low
+1,3,Female,Q,NK,Low
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,Child,Low
+1,2,Female,S,'Senior Adult',Average
+0,3,Male,S,'Young Adult',None
+1,3,Female,C,NK,Low
+1,3,Female,C,NK,Low
+1,3,Female,S,Child,Low
+0,3,Male,C,NK,Low
+0,3,Male,S,Child,Average
+0,3,Female,S,Child,Average
+0,3,Female,S,Child,Average
+0,3,Female,S,'Young Adult',Average
+0,2,Female,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Average
+0,3,Male,S,'Young Adult',Average
+1,3,Male,S,Child,Average
+1,3,Male,S,Child,Low
+1,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+1,3,Female,S,'Young Adult',Low
+0,3,Male,S,Teen,Low
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,NK,Low
+0,3,Male,S,NK,Low
+1,2,Female,S,'Young Adult',Low
+1,2,Female,S,Teen,Low
+1,3,Female,C,Child,Average
+1,3,Female,C,Child,Average
+1,3,Female,C,Child,Average
+1,3,Female,C,'Young Adult',Average
+1,3,Male,C,'Young Adult',None
+0,3,Male,C,Child,None
+1,2,Male,S,Child,Low
+1,2,Female,S,'Young Adult',Average
+1,2,Male,S,Child,Low
+0,3,Female,S,'Young Adult',Low
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,Teen,Low
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+1,3,Female,S,'Young Adult',Low
+1,3,Female,S,Child,Low
+1,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+1,3,Female,S,NK,Low
+1,3,Female,S,NK,Low
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+1,2,Female,S,'Senior Adult',None
+1,3,Male,S,Child,Low
+1,3,Male,S,Child,Low
+1,3,Female,S,'Young Adult',Average
+1,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',None
+1,3,Female,C,Child,Low
+1,3,Male,C,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+0,3,Male,Q,NK,Low
+1,3,Female,Q,NK,Low
+0,3,Male,Q,'Young Adult',Low
+1,3,Female,Q,NK,Low
+0,3,Male,Q,NK,Low
+1,3,Female,Q,NK,Low
+0,3,Female,Q,'Young Adult',Low
+0,3,Male,Q,NK,None
+1,3,Male,C,NK,Low
+0,3,Female,C,NK,Low
+1,3,Female,C,'Young Adult',Low
+1,3,Male,C,NK,Low
+0,3,Female,C,Child,Low
+0,3,Male,S,NK,None
+0,2,Male,C,NK,None
+0,2,Male,C,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+1,2,Female,S,'Young Adult',Low
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+1,2,Male,S,Child,Low
+0,3,Male,S,NK,None
+0,3,Female,C,Teen,None
+0,3,Male,C,NK,None
+0,3,Female,C,NK,Low
+0,3,Male,C,'Young Adult',Low
+0,3,Female,C,Teen,Low
+0,3,Female,C,NK,Low
+0,3,Female,C,'Young Adult',Low
+0,3,Male,C,'Young Adult',Low
+0,3,Female,C,'Young Adult',Low
+1,3,Female,C,Teen,Low
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',Low
+0,2,Male,S,'Senior Adult',None
+1,2,Male,C,NK,None
+1,2,Female,C,'Young Adult',Low
+1,2,Female,C,'Young Adult',None
+0,2,Male,S,'Senior Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Senior Adult',None
+1,2,Female,S,'Young Adult',None
+1,3,Female,C,Child,Low
+1,2,Male,S,NK,None
+1,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Female,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+1,2,Female,S,'Young Adult',Low
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Male,S,'Young Adult',None
+0,2,Male,S,'Senior Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Senior Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,C,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Senior Adult',None
+1,3,Female,S,'Young Adult',None
+1,3,Male,S,Child,Low
+1,3,Female,S,Child,None
+1,3,Female,S,'Young Adult',Low
+1,2,Female,Q,NK,None
+1,2,Female,Q,'Young Adult',None
+0,2,Male,Q,'Senior Adult',None
+1,3,Female,S,Child,Low
+0,2,Male,S,'Young Adult',None
+1,2,Female,C,Teen,None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',Average
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',Low
+1,3,Female,C,Teen,Low
+1,3,Male,C,Teen,Low
+1,3,Female,S,'Young Adult',Low
+1,3,Female,S,Child,Low
+1,3,Male,S,Child,Low
+0,3,Female,S,'Young Adult',None
+0,2,Male,S,Elderly,None
+1,2,Female,S,'Young Adult',None
+1,2,Female,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,Teen,None
+0,2,Male,S,'Young Adult',None
+1,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,'Young Adult',None
+1,2,Female,S,'Senior Adult',None
+1,2,Female,S,'Young Adult',None
+1,2,Female,S,'Senior Adult',None
+1,2,Male,S,'Senior Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,Elderly,None
+1,2,Female,S,'Young Adult',None
+0,2,Female,S,'Senior Adult',None
+0,2,Male,S,'Young Adult',None
+0,2,Male,S,Teen,None
+0,2,Male,S,'Young Adult',None
+0,3,Female,S,Child,Low
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Female,S,'Young Adult',None
+0,3,Female,S,'Young Adult',None
+0,3,Female,S,'Young Adult',Low
+0,3,Female,S,'Young Adult',Low
+1,3,Female,S,'Senior Adult',None
+0,3,Female,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,Teen,None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+1,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,Teen,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Female,S,'Young Adult',None
+0,3,Male,C,NK,None
+1,3,Female,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,NK,None
+0,3,Male,S,Teen,None
+0,3,Male,C,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Female,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,Teen,None
+0,3,Female,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,Teen,None
+0,3,Male,S,'Young Adult',None
+1,3,Male,C,Child,Low
+0,3,Male,Q,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Female,Q,NK,None
+1,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Senior Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+1,3,Male,S,Teen,None
+0,3,Male,S,'Senior Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Female,S,NK,None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Senior Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Female,S,NK,None
+0,3,Male,S,Teen,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+1,3,Female,Q,Teen,None
+1,3,Female,S,'Young Adult',None
+1,3,Female,S,Teen,High
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Female,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+1,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',Low
+0,3,Female,S,'Young Adult',Low
+1,3,Male,S,'Young Adult',None
+0,3,Female,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,C,NK,None
+0,3,Male,S,NK,None
+0,3,Female,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,C,NK,None
+1,3,Male,C,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Female,Q,NK,None
+1,3,Female,Q,'Young Adult',None
+1,3,Female,Q,NK,None
+1,3,Female,Q,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Female,S,Teen,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+1,3,Female,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+1,3,Female,S,'Young Adult',None
+0,3,Female,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,Q,NK,None
+1,3,Female,Q,NK,None
+0,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Female,Q,NK,None
+1,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Female,S,'Young Adult',None
+1,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+1,3,Female,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,Teen,None
+0,3,Male,S,'Young Adult',None
+0,3,Female,S,'Young Adult',None
+0,3,Male,S,Elderly,None
+1,3,Female,Q,NK,None
+1,3,Female,Q,NK,None
+0,3,Male,Q,Elderly,None
+0,3,Male,Q,NK,None
+1,3,Female,S,'Young Adult',None
+0,3,Male,Q,NK,None
+1,3,Female,Q,NK,None
+1,3,Female,Q,Teen,None
+0,3,Male,Q,NK,Low
+0,3,Male,Q,NK,None
+0,3,Female,Q,NK,None
+1,3,Female,Q,NK,None
+0,3,Female,S,'Young Adult',None
+0,3,Male,Q,'Senior Adult',None
+1,3,Female,Q,'Young Adult',None
+1,3,Female,Q,NK,None
+1,3,Female,Q,NK,None
+0,3,Male,S,'Senior Adult',None
+0,3,Male,Q,NK,None
+0,3,Male,Q,NK,None
+0,3,Female,Q,'Young Adult',None
+1,3,Male,Q,'Young Adult',None
+0,3,Male,Q,'Young Adult',None
+0,3,Male,Q,NK,None
+1,3,Female,Q,NK,None
+0,3,Female,Q,NK,Low
+0,3,Male,Q,NK,None
+0,3,Male,Q,'Young Adult',None
+0,3,Female,Q,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,Q,NK,None
+0,3,Male,Q,NK,None
+1,3,Male,Q,NK,None
+0,3,Male,Q,'Young Adult',None
+0,3,Male,Q,'Young Adult',None
+1,3,Female,Q,NK,None
+0,3,Male,Q,NK,None
+1,3,Female,Q,Teen,None
+0,3,Male,Q,'Young Adult',None
+0,3,Male,Q,NK,None
+1,3,Female,Q,NK,None
+0,3,Male,Q,NK,None
+0,3,Male,Q,NK,None
+0,3,Male,S,'Young Adult',None
+1,3,Female,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Female,Q,NK,None
+0,3,Female,S,NK,None
+0,3,Male,S,NK,None
+1,3,Female,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Female,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Senior Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Female,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+1,3,Male,C,NK,None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,Teen,Low
+1,3,Female,C,NK,None
+0,3,Male,C,NK,None
+0,3,Male,C,NK,None
+0,3,Male,C,Teen,Low
+0,3,Male,C,NK,None
+1,3,Male,C,'Young Adult',None
+1,3,Female,C,Teen,None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,NK,None
+0,3,Male,C,NK,None
+1,3,Female,C,NK,None
+0,3,Male,C,NK,None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,NK,None
+0,3,Male,C,NK,None
+1,3,Male,C,'Young Adult',None
+0,3,Male,C,NK,None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,C,NK,None
+1,3,Female,C,Teen,None
+1,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,Teen,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Senior Adult',None
+0,3,Male,S,Teen,Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,3,Male,Q,NK,None
+0,3,Male,Q,NK,None
+0,3,Male,Q,'Young Adult',None
+0,3,Female,Q,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,3,Male,S,'Young Adult',Low
+0,3,Male,S,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,S,'Senior Adult',None
+0,1,Male,S,'Young Adult',None
+0,3,Male,C,'Young Adult',None
+0,3,Male,S,'Young Adult',None
+0,1,Male,S,'Young Adult',None
+1,3,Male,S,'Young Adult',None
+0,2,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,2,Male,S,NK,None
+0,2,Male,S,NK,None
+0,2,Male,S,NK,None
+0,3,Male,S,'Young Adult',None
+0,1,Male,S,NK,None
+0,2,Male,S,NK,None
+0,2,Male,S,NK,None
+0,1,Male,S,'Young Adult',None
+0,1,Male,S,NK,None
+0,1,Male,S,'Young Adult',None
